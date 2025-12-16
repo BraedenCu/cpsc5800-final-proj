@@ -74,14 +74,6 @@ Id recommend using clip3.MOV to verify the system works for the sake of your gra
    ls -lh data/clip1.MOV
    ```
 
-3. Run a quick test with a short clip:
-
-   ```bash
-   # edit speeding_detection_v4.py to use a short clip first
-   # change: VIDEO_SOURCE = "./data/clip3.MOV"
-   uv run python speeding_detection_v4.py
-   ```
-
 ### Troubleshooting
 
 Issue: `Video file not found`
